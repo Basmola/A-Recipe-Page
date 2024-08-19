@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(238, 232, 224);
+    width: auto;
+    height: auto;
+    display: flex;
+}
+header{
+    background-color:hsl(0, 0%, 100%);
+    width:655px;
+    height:1310px;
+    border-radius:10px;
+    text-align: center;
+    margin: 35px auto ;
+    padding-bottom: 20px;
+}
+img{
+    width:600px;
+    height:277.7px;
+    padding:25px 25px 10px;
+    border-radius:30px ;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    text-align:left; 
+    padding-left:26px;
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-size: 90%;
+    font-weight:300;
+    text-align:left;
+padding: 0px 30px;
+}
+.Preparation{
+    background-color:hsl(330, 100%, 98%);
+    margin:0px 26px;
+    border-radius:1.2%;
+    border-radius: 5px;
+    padding-bottom:10px;
+}
+.Preparation > h3{
+    text-align:left;
+    padding: 10px 19px 0px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-size:medium;
+    font-weight:700;
+}
+.Preparation >ul>li{
+text-align: left;
+font-family: "Outfit", sans-serif;
+font-size: small;
+line-height: 22px;
+font-weight:300;
+padding-left:12px;
+}
+b{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+}
+.Ingredients>h2,.Instructions>h2,.Nutrition>h2{
+    font-family: "Young Serif", serif;
+    font-weight:200;
+    text-align:left; 
+    padding-left:26px;
+    color:hsl(14, 45%, 36%);
+}
+.Ingredients >ul> li ,.Instructions>ol>li{
+    font-family: "Outfit", sans-serif;
+    font-size: small;
+    text-align: left;
+    font-weight: 300;
+    padding-left:18px;
+}
+hr{
+    width:566px;
+}
+.Instructions>ol>li{
+    font-family: "Outfit", sans-serif;
+    font-size: 95%;
+    text-align: left;
+    font-weight: 300;
+    padding:0px 15px ;
+    line-height: 23px;
+}
+.Nutrition>p{
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-size: 85%;
+    line-height: 22px;
+    font-weight:300;
+    padding-left:25px;
+}
+div>div{
+    display: inline-block;
+    padding:0px 215px 0px 0px;
+    font-family: "Outfit", sans-serif;
+    font-size: 80%;
+    font-weight: 200;
+
+}
+
+.bas>div{
+    padding:0px 236px 0px 0px;
+}
+.fat>div,.Protein>div{
+    padding:0px 230px 0px 0px; 
+}
+.color{
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+li::marker {
+    color:hsl(14, 45%, 36%);
+}
+.Preparation>ul>li::marker {
+    color: hsl(332, 51%, 32%);
+}
